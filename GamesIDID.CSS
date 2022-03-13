@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color:#FC275F
+    
+}
+
+
+.night{
+    height: 70vh;
+    width: 70vw;
+    border: 1px solid black;
+    margin: 5rem auto;
+    background:url(Img_1.png);
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.4);
+    overflow-x: hidden;
+}
+
+.surface{
+    height: 120px;
+    width: 500%;
+    background: url(Img_02.png);
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    background-repeat: repeat-x;
+    animation:moveRight 6s linear infinite;
+}
+
+
+.car{
+    position: absolute;
+    bottom: 5%;
+    left: 24%;
+   
+}
+
+
+/*Animation*/
+
+@keyframes moveRight{
+    100%{transform:translate(-3000px)}
+}
+    
+
+
+
+
+
+.moveRight{
+    animation:moveRight 6s linear infinite;
+}
+
+
+.suspension{
+    animation: suspension 1s;
+
+}
